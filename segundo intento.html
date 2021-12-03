@@ -1,0 +1,48 @@
+
+<script>
+    var equipodecomputo = prompt("Opciones a Elegir: ,Equipo,Codigo,Cantidad");
+    
+    switch (equipodecomputo){
+        case "Equipo":
+                registros = prompt(" ingresa cuantos equipos de computo vas a llevar");
+                for (let i = 1; i <= 5; i++) {
+                    console.log(registros + [i]);
+                    let NuevoRegistro = CrearRegistro();
+                    console.log(NuevoRegistro);
+                    alert("Registro Creado");
+    
+                }
+                break;
+    
+    case "equipodecomputo":
+            var equipo={
+        
+                "equipo 1":{
+                    "equipodecomputo" : "laptop",
+                    "Codigo": 101010101,
+                    "cantidad": 3,
+    }
+                    console.log(registros + [i]);
+                    let NuevoRegistro = CrearRegistro();
+                    console.log(NuevoRegistro);
+                    alert("Registro Creado");
+    
+
+             
+   
+     
+    var computo = 0;
+        
+        while(computo >= 0){
+             computo=prompt("Tiene algun prestamo: \n 1. si \n 2. no");
+            switch(computo){
+                    case"si":
+                      alert("ya cuenta con un prestamo");     
+                         break;
+                     case"no":
+                       alert("se ha validado su prestamo");
+            }
+
+        }
+                computo = 3;
+</script>
